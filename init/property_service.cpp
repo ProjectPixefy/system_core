@@ -1411,6 +1411,7 @@ static void SetSafetyNetProps() {
     InitPropertySet("ro.boot.veritymode", "enforcing");
     InitPropertySet("ro.boot.warranty_bit", "0");
     InitPropertySet("ro.build.tags", "release-keys");
+    InitPropertySet("ro.oem_unlock_supported", "0");
 }
 
 void PropertyInit() {
